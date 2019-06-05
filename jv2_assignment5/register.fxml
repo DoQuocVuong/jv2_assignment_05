@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="jv2_assignment5.Register" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtUsername" layoutX="68.0" layoutY="61.0" prefHeight="27.0" prefWidth="481.0" promptText="Username">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtEmail" layoutX="68.0" layoutY="137.0" prefHeight="27.0" prefWidth="481.0" promptText="Email">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="txtPassword" layoutX="68.0" layoutY="214.0" prefHeight="27.0" prefWidth="481.0" promptText="Password">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <Button onAction="#register" layoutX="68.0" layoutY="293.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="124.0" text="Register">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Hyperlink onAction="#home" layoutX="25.0" layoutY="14.0" text="&lt;&lt; Home" />
+      <Hyperlink onAction="#login" layoutX="480.0" layoutY="301.0" text="Login &gt;&gt;" />
+   </children>
+</Pane>
